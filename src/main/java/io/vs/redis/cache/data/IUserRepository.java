@@ -4,7 +4,7 @@ import io.vs.redis.cache.model.User;
 
 import java.util.Map;
 
-public interface UserRepository {
+public interface IUserRepository {
 
     public void save(User user);
 
